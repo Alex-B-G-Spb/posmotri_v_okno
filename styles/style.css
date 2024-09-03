@@ -57,10 +57,6 @@ ol {
   
 }
 
-.result {
- /* block-size:456px;*/
-}
-
 .result__video-container {
   position: relative;
   padding-bottom: 16px;
@@ -167,11 +163,6 @@ search-form__fieldset-title:has(:focus) {
   text-decoration: underline;
   text-underline-offset: 1px;
 }
-
-/*.content__card-link:hover .content__video-card-description {
-  text-decoration: underline;
-  text-underline-offset: 1px;
-}*/
 
 .content__card-link:active {
   background-color: rgba(84, 80, 80, 1);
