@@ -80,7 +80,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-content: end;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .content__list {
@@ -128,10 +128,6 @@ a {
   text-align: left;
   border: none;
   padding-bottom: 5px;
-}
-
-.search-form__textfield:focus {
-  outline: none;
 }
 
 /*.search-form__fieldset-title:has(:focus-visible) {
@@ -255,6 +251,7 @@ a {
 
 .more-button {
   width: 100%;
+  margin-top: 30px;
 }
 
 .search-form__pseudo-checkbox {
